@@ -9,9 +9,8 @@ local Player = game.Players.LocalPlayer --This Will Reveal The Player Name
 }) --This Will Load The Script Hub
 
 function MakeScriptHub()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/ZeaLandz/Tester/main/Zealand.txt"))() --Put The Script That Will Load If The Key Is Correct Here
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/ZeaLandz/Tester/main/Protected_9267161243093099.lua.txt "))()
 end
-
 OrionLib:MakeNotification({
 	Name = "Logged In!",
 	Content = "You need key "..Player.Name..".",
